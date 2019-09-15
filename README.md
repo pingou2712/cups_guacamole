@@ -9,7 +9,8 @@ But error because test to create thinclient...
 
 So only change at the moment:
 
-*Change return 1 to return 0
+*It's not a good job but it's work (not time for moment)
+Change return 1 to return 0
 line:122 and 522
 
 *And changement name and necessary for that...
