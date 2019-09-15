@@ -18,7 +18,7 @@ line:122 and 522
 
 To install:
 
-apt source cups needed
+(apt source cups needed)
 gcc -O9 -s cups-guacamole.c -o /usr/lib/cups/backend/cups-guacamole -lcups
 
 mkdir /usr/share/ppd/cups-guacamole
