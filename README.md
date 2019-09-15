@@ -1,11 +1,12 @@
+Fork of cups-pdf
 Sorry for my english (i'm french)
 
-Fork of cups-pdf
+It's for printer with guacamole (linux desktop)
 
-Printer of guacamole don't work with me....
+Printer native of guacamole don't work with me.... (it's really work for someone? on linux desktop?)
 So i use cups-pdf to print directly on Download directory of guacamole
 (Don't need printer enabled of user-mapping.mxl, just need enable-drive)
-But error because test to create directory thinclient... normal....
+But there are error because the tests to create directory thinclient... change owner etc etc... normal
 
 So only change at the moment:
 
