@@ -15,6 +15,8 @@ line:122 and 522
 *And changement name and necessary for that...
 
 
+To install:
+
 gcc -O9 -s cups-pdf.c -o /usr/lib/cups/backend/cups-guacamole -lcups
 
 mkdir /usr/share/ppd/cups-guacamole
