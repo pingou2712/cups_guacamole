@@ -18,7 +18,7 @@ line:122 and 522
 
 To install:
 
-gcc -O9 -s cups-pdf.c -o /usr/lib/cups/backend/cups-guacamole -lcups
+gcc -O9 -s cups-guacamole.c -o /usr/lib/cups/backend/cups-guacamole -lcups
 
 mkdir /usr/share/ppd/cups-guacamole
 cp CUPS-GUACAMOLE_opt.ppd /usr/share/ppd/cups-guacamole/CUPS-GUACAMOLE_opt.ppd
