@@ -28,4 +28,4 @@ cp cups-guacamole.conf /etc/cups/cups-guacamole.conf
 change directory on cups-guacamole.conf if needed
 
 And add printer via cups!! 
-enjoy
+enjoy 
