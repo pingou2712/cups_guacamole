@@ -12,7 +12,7 @@ So only change at the moment:
 
 *It's not a good job but it's work (not time for moment):
 Change return 1 to return 0
-line:122 and 522
+line:122 and 523
 
 *And changement name and necessary for that...
 
@@ -30,3 +30,4 @@ change directory on cups-guacamole.conf if needed
 
 And add printer via cups!! 
 enjoy 
+Vincent L.
