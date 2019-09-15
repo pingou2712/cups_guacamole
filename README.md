@@ -5,11 +5,11 @@ Fork of cups-pdf
 Printer of guacamole don't work with me....
 So i use cups-pdf to print directly on Download directory of guacamole
 (Don't need printer enabled of user-mapping.mxl, just need enable-drive)
-But error because test to create thinclient...
+But error because test to create directory thinclient... normal....
 
 So only change at the moment:
 
-*It's not a good job but it's work (not time for moment)
+*It's not a good job but it's work (not time for moment):
 Change return 1 to return 0
 line:122 and 522
 
