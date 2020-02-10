@@ -38,6 +38,23 @@
   
    HISTORY: see ChangeLog in the parent directory of the source archive
 */
+/*
+Fork of cups-pdf Sorry for my english (i'm french)
+
+It's for printer with guacamole (linux desktop)
+
+Printer native of guacamole don't work with me.... (it's really work for someone? on linux desktop?) 
+So i use cups-pdf to print directly on Download directory of guacamole 
+(Don't need printer enabled of user-mapping.mxl, just need enable-drive) 
+But there are error because the tests to create directory thinclient... 
+change owner etc etc... normal
+
+So only change at the moment:
+
+*It's not a good job but it's work (not time for moment): Change return 1 to return 0 line:122 and 523
+
+*And changement name and necessary for that...
+*/
 
 #include <time.h>
 #include <errno.h>
@@ -56,9 +73,9 @@
 #include <sys/stat.h>
 #include <sys/wait.h>
 
-#include </home/pingou/ImprimanteGuacamole/cups/cups.h>
-#include </home/pingou/ImprimanteGuacamole/cups/ppd.h>
-#include </home/pingou/ImprimanteGuacamole/cups/backend.h>
+#include <cups/cups.h>
+#include <cups/ppd.h>
+#include <cups/backend.h>
 
 #include "cups-guacamole.h"
 
