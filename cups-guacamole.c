@@ -263,11 +263,6 @@ static void read_config_file(char *filename) {
   struct stat fstatus;
   cp_string buffer, key, value;
 
-FILE* fichiertest = NULL;
-fichiertest=fopen("/testlog/test", "a");
-fprintf(fichiertest,"**********TEST11********%s\n",filename);
-fclose(fichiertest);
-
   if ((strlen(filename) > 1) && (!stat(filename, &fstatus)) &&
       (S_ISREG(fstatus.st_mode) || S_ISLNK(fstatus.st_mode))) {
     fp=fopen(filename,"r");
@@ -383,12 +378,6 @@ static int init(char *argv[]) {
   cp_string filename;
   int grpstat;
   const char *uri=cupsBackendDeviceURI(argv);
-
-
-FILE* fichiertest = NULL;
-fichiertest=fopen("/testlog/test", "a");
-fprintf(fichiertest,"**********TEST DEBUT********%s\n",uri);
-fclose(fichiertest);
 
   if ((uri != NULL) && (strncmp(uri, "cups-guacamole:/", 16) == 0) && strlen(uri) > 16) {
     uri = uri + 16;
