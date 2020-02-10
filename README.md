@@ -31,3 +31,8 @@ change directory on cups-guacamole.conf if needed
 And add printer via cups!! 
 enjoy 
 Vincent L.
+
+Note:
+You can use : PostProcessing line in config but:
+-> need 2 congfig file for cup if you need a "normal" pdfprinter and i don't know do that simply...
+-> print write first in pdf directory and after move it in Guacfs directory so 2 write for 1...
