@@ -30,6 +30,7 @@ gcc -O9 -s cups-guacamole.c -o /usr/lib/cups/backend/cups-guacamole -lcups
 chmod 700 /usr/lib/cups/backend/cups-guacamole
 
 mkdir /usr/share/ppd/cups-guacamole
+
 cp CUPS-GUACAMOLE_opt.ppd /usr/share/ppd/cups-guacamole/CUPS-GUACAMOLE_opt.ppd
 
 cp cups-guacamole.conf /etc/cups/cups-guacamole.conf
