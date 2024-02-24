@@ -4,6 +4,7 @@ Sorry for my english (i'm french)
 It's for printer with guacamole (linux desktop)
 
 Printer native of guacamole don't work with me.... (it's really work for someone? on linux desktop?)
+It's because xrdp don't support remote printer.
 So i use cups-pdf to print directly on Download directory of guacamole
 (Don't need printer enabled of user-mapping.mxl, just need enable-drive)
 But there are error because the tests to create directory thinclient... change owner etc etc... normal
